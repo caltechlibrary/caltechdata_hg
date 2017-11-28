@@ -1,0 +1,84 @@
+{
+    "contributors": [
+        {
+            "affiliations": [ "California Institute of Technology, Pasadena, CA, USA" ],
+            "contributorName": "Name",
+            "contributorType": "ContactPerson",
+            "contributorEmail": "email@caltech.edu", 
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "0000-0000-0000-0000",
+                    "nameIdentifierScheme": "ORCID",
+                    "schemeURI": "http://orcid.org"
+                }
+            ]
+        }
+    ],
+    "creators": [
+        {
+            "affiliations": [
+                "California Institute of Technology, Pasadena, CA, USA"
+            ],
+            "creatorName": "Name",
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "0000-0000-0000-0000",
+                    "nameIdentifierScheme": "ORCID",
+                    "schemeURI": "http://orcid.org/"
+                }
+            ]
+        }
+    ],
+    "dates": [
+        {
+            "date": "2014-11-06",
+            "dateType": "Created"
+        },
+        {
+            "date": "2017-11-15",
+            "dateType": "Updated"
+        }
+    ],
+    "descriptions": [
+        {
+            "description": "A description of the software program.",
+            "descriptionType": "Abstract"
+        }
+    ],
+    "language": "eng",
+    "publisher":"CaltechDATA",
+    "relatedIdentifiers": [
+        {
+            "relatedIdentifier": "https://caltech.edu/",
+            "relatedIdentifierType": "URL",
+            "relationType": "IsDocumentedBy"
+        },
+        {
+            "relatedIdentifier": "10.000/0000",
+            "relatedIdentifierType": "DOI",
+            "relationType": "IsDocumentedBy"
+        }
+    ],
+    "resourceType": {
+        "resourceTypeGeneral": "Software"
+    },
+    "rightsList": [
+        {
+            "rights": "cc-by",
+            "rightsURI": "https://creativecommons.org/licenses/by/4.0"
+        }
+    ],
+    "subjects": [
+        {
+            "subject": "Bitbucket"
+        },
+        {
+            "subject": "Keyword"
+        }
+    ],
+    "titles": [
+        {
+            "title": "Title of software"
+        }
+    ],
+}
