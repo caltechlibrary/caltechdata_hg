@@ -17,6 +17,6 @@ To use:
 - Run the script by typing python submit_hg.py metadata.json
 
 ### Note
-This script will make permament records of your code in CaltechDATA.  These
+This script will make permanent records of your code in CaltechDATA.  These
 cannot be removed.  Take care to only run this script when you are ready to
 preserve your code.
