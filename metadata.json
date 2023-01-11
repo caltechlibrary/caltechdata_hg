@@ -2,12 +2,13 @@
     "contributors": [
         {
             "affiliations": [ "California Institute of Technology, Pasadena, CA, USA" ],
-            "contributorName": "Name",
+            "familyName": "Family Name",
+            "givenName": "Given Name",
             "contributorType": "ContactPerson",
             "contributorEmail": "email@caltech.edu", 
             "nameIdentifiers": [
                 {
-                    "nameIdentifier": "0000-0000-0000-0000",
+                    "nameIdentifier": "0000-0002-1825-0097",
                     "nameIdentifierScheme": "ORCID",
                     "schemeURI": "http://orcid.org"
                 }
@@ -19,10 +20,11 @@
             "affiliations": [
                 "California Institute of Technology, Pasadena, CA, USA"
             ],
-            "creatorName": "Name",
+            "familyName": "Family Name",
+            "givenName": "Given Name",
             "nameIdentifiers": [
                 {
-                    "nameIdentifier": "0000-0000-0000-0000",
+                    "nameIdentifier": "0000-0002-1825-0097",
                     "nameIdentifierScheme": "ORCID",
                     "schemeURI": "http://orcid.org/"
                 }
@@ -33,10 +35,6 @@
         {
             "date": "2014-11-06",
             "dateType": "Created"
-        },
-        {
-            "date": "2017-11-15",
-            "dateType": "Updated"
         }
     ],
     "descriptions": [
@@ -59,7 +57,7 @@
             "relationType": "IsDocumentedBy"
         }
     ],
-    "resourceType": {
+    "types": {
         "resourceTypeGeneral": "Software"
     },
     "rightsList": [
@@ -80,5 +78,5 @@
         {
             "title": "Title of software"
         }
-    ],
+    ]
 }
