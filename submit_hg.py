@@ -46,6 +46,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "json_file", nargs=1, help="file name for json DataCite metadata file"
     )
+    parser.add_argument("-add_link", help="add a link to repo (not fully tested)")
 
     args = parser.parse_args()
 
@@ -79,15 +80,15 @@ if __name__ == "__main__":
     versions.sort()
     for version in versions:
         if version not in already_archived:
-            hashv = t[2]
-            outfile = version + ".tgz"  # open(version+'.tgz','w')
-            client.archive(outfile.encode("utf-8"), hashv)
+            outfile = version + ".tgz"
+            client.archive(outfile.encode("utf-8"), version)
             split = version.split(".")
             mj = split[0]
             metaf = open(args.json_file[0], "r")
             metadata = json.load(metaf)
             metadata["version"] = version
-            metadata = build_relation(client, version, metadata)
+            if args.add_link:
+                metadata = build_relation(client, version, metadata)
             files = outfile
             if already_archived == []:
                 print("Creating New Record")
